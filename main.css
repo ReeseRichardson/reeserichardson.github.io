@@ -1,0 +1,383 @@
+/* style body */
+body {
+    padding: 0;
+    margin: 0;
+    background: black;
+    position: relative;
+}
+
+/* style navbar */
+.navbar {
+    background: black;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.navbar-brand, .navbar-brand:hover {
+    color: white;
+    cursor: pointer;
+    padding-left: 1rem;
+}
+
+.navbar-brand-image {
+    width: 30px;
+    height: 30px;
+}
+
+.nav-link {
+    margin-right: 1em;
+    color: rgb(82, 82, 82);;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+/* style nav-pills */
+.nav-pills .nav-link.active, .dropdown-item {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 0%;
+    color: white;
+}
+
+/* style header */
+.header {
+    position: relative;
+    min-height: 100%;
+    min-width: 100%;
+    background: black;
+    z-index: -1;
+}
+
+/* style header title and description */
+.description {
+	left: 10%;
+	position: absolute;
+	top: 30%;
+	text-align: left;
+    z-index: 3;
+}
+
+.description h1 {
+	color: white;
+}
+
+.description h2 {
+	color: rgb(82, 82, 82);
+	font-size: 1.3rem;
+	line-height: 1.5;
+}
+
+.description h3 {
+	color: rgb(44, 44, 44);
+	font-size: 1rem;
+	line-height: 1.5;
+}
+
+/* parallax */
+.parallax {
+    position: absolute;
+}
+
+/* earth */
+.earth-pos {
+    bottom: 30%;
+    left: 15%;
+}
+
+#earth {
+    width: 80px;
+    height: 80px;
+    animation: wobble 1.8s ease-in-out alternate infinite;
+}
+
+/* mars */
+.mars-pos {
+    top: 30%;
+    right: 20%;
+    z-index: 1;
+}
+
+#mars {
+    width: 50px;
+    height: 50px;
+    animation: wobble 1.2s ease-in-out alternate-reverse infinite;
+}
+
+/* satellite */
+.satellite-pos {
+    top: 25%;
+    right: 17%;
+}
+
+#satellite {
+    width: 30px;
+    height: 30px;
+    animation: wobble 2.1s ease-in-out alternate-reverse infinite;
+}
+
+/* saturn */
+.saturn-pos {
+    top: 10%;
+    right: 70%;
+}
+
+#saturn {
+    width: 25px;
+    height: 25px;
+    animation: wobble 3s ease-in-out alternate infinite;
+}
+
+/* rocket */
+.rocket-pos {
+    bottom: 37%;
+    left: 22%;
+    z-index: 2;
+}
+
+/* rocket-rotate-div */
+#rocket-rotate {
+    transform: rotate(25deg);
+}
+
+#rocket {
+    width: 30px;
+    height: 30px;
+    animation: wobble 2s ease-in-out alternate-reverse infinite;
+}
+
+/* ufo */
+.ufo-pos {
+    top: 31%;
+    right: 20.5%;
+    z-index: 0;
+}
+
+/* ufo-rotate-div */
+#ufo-rotate {
+    transform: rotate(30deg);
+}
+
+#ufo {
+    width: 30px;
+    height: 30px;
+    animation: wobble 0.5s ease-in-out alternate-reverse infinite;
+}
+
+/* wobble animation */
+@keyframes wobble {
+    0%{
+        transform: translateY(10px);
+    }
+}
+
+/* scroll down arrow */
+#scroll-down-arrow {
+    position: absolute;
+    bottom: 10rem;
+    left: 50%;
+    animation: move-arrow 3s linear infinite;
+    background-color: transparent;
+}
+
+#scroll-down-arrow span {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 10px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+/* scroll-down-arrow-animation */
+@keyframes move-arrow {
+    0%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 0;
+        transform: translateY(-15px);
+    }
+    50%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+/* features */
+.features {
+	margin: 4em auto;
+	padding: 1em;
+	position: relative;
+}
+
+.feature-title {
+	color: #333;
+	font-size: 1.3rem;
+	font-weight: 700;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+.features img {
+	-webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	margin-bottom: 16px;
+}
+
+/* style contact form */
+.features .form-control,
+.features input {
+    margin-top: 20px;
+	border-radius: 0;
+    width: 100%;
+}
+.features .btn {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+.features .btn:hover {
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+}
+
+/* sections */
+.background {
+	background:black;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.section-title {
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    cursor: default;
+}
+
+/* engineering */
+.card-columns {
+	-webkit-column-count: 4;
+	-moz-column-count: 4;
+	column-count: 4;
+}
+
+.card {
+    background-color: transparent;
+    border: transparent;
+    border-radius: 0%;
+    padding: 2px;
+    border: 0%;
+    filter: grayscale(100%);
+}
+
+.card:hover {
+    filter: grayscale(0%);
+    /* position: relative;
+    transform: scale(1.05); */
+}
+
+.card-img {
+    border-radius: 0;
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.card-text {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    background-color: black;
+    font-size: 1.3rem;
+    padding: 5px;
+    text-align: left;
+}
+
+/* footer */
+.page-footer {
+    background-color: black;
+    color: white;
+    padding: 60px 0 30px;
+}
+
+.footer-copyright {
+    color: rgb(82, 82, 82);
+    padding: 40px 0;
+}
+
+/* adjust for mobile devices */
+@media (max-width: 575.98px) {
+    .description {
+        left: 0;
+        padding: 0 15px;
+        position: absolute;
+        top: 10%;
+        transform: none;
+        text-align: center;
+    }
+ 
+    .description h1 {
+        font-size: 2em;
+    }
+ 
+    .description p {
+        font-size: 1.2rem;
+    }
+ 
+    .features {
+        margin: 0;
+    }
+}
+
+/* appear on load */
+.appear-on-load {
+    animation: appear-on-load 1s ease;
+}
+
+/* appear on load animation */
+@keyframes appear-on-load {
+    0%{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+@keyframes hover-scale {
+    0%{
+        width: 10%;
+        height: 10%;
+    }
+    100%{
+        width: 50%;
+        height: 50%;
+    }
+}
+
+/* style carousel */
+.carousel-item {
+    height: 32rem;
+    background: rgb(82, 82, 82);;
+    color: white;
+}

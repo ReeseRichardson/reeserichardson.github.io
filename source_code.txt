@@ -1,0 +1,83 @@
+* Title: Introduction to Creating Websites with GitHub Pages and Jekyll
+* Author: Evan Will
+* Date: 2020
+* Code version: 2.0
+* Availability: https://evanwill.github.io/go-go-ghpages-b/content/1-intro.html
+
+* Title: Bootstrap
+* Author: Mark Otto, Jacob Thornton, XhmikosR, GeoSot, Rohit Sharma, alpadev, Gaël Poupard, Patrick H. Lauke, Martijn Cuppens, Johann-S, Gleb Mazovetskiy
+* Date: June 22, 2021
+* Code version: 5.0.2
+* Availability: https://getbootstrap.com
+
+* Title: Bootstrap
+* Author: Mark Otto, Jacob Thornton, XhmikosR, GeoSot, Rohit Sharma, alpadev, Gaël Poupard, Patrick H. Lauke, Martijn Cuppens, Johann-S, Gleb Mazovetskiy
+* Date: October 13, 2020
+* Code version: 4.5.3
+* Availability: https://getbootstrap.com
+
+* Title: How TO - Smooth Scroll
+* Author: W3Schools
+* Date: 2021
+* Code version:
+* Availability: https://www.w3schools.com/howto/howto_css_smooth_scroll.asp
+
+* Title: How TO - Hide Menu on Scroll
+* Author: W3Schools
+* Date: 2021
+* Code version:
+* Availability: https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp
+
+* Title: Bootstrap Tutorial - How to Setup and Use Bootstrap (Step-by-Step)
+* Author: Nick Schäferhoff
+* Date: December 8, 2020
+* Code version:
+* Availability: https://websitesetup.org/bootstrap-tutorial-for-beginners/
+
+* Title: How To Create a Scroll Down Button Animation | HTML and CSS Tutorial
+* Author: Julio Codes
+* Date: March 18, 2020
+* Code version:
+* Availability: https://www.youtube.com/watch?v=zZNcdwXshU0
+
+* Title: Vanilla JavaScript Parallax with just a Few Lines of Code
+* Author: Gary Simon
+* Date: December 31, 2018
+* Code version:
+* Availability: https://www.youtube.com/watch?v=Dxm6EwvQIl8&list=LL&index=8
+
+* Title: How TO - CSS Arrows
+* Author: W3Schools
+* Date: 2021
+* Code version:
+* Availability: https://www.w3schools.com/howto/howto_css_arrows.asp
+
+* Title: Is there an easier way to display live time and date in HTML using bootstrap?
+* Author: runar
+* Date: April 17, 2020
+* Code version:
+* Availability: https://stackoverflow.com/questions/61280319/is-there-an-easier-way-to-display-live-time-and-date-in-html-using-bootstrap
+
+* Title: gitignore.io
+* Author: Toptal
+* Date: 2021
+* Code version:
+* Availability: https://www.toptal.com/developers/gitignore
+
+* Title: How to Implement Smooth Scrolling With CSS & JavaScript
+* Author: George Martsoukos
+* Date: June 15, 2021
+* Code version:
+* Availability: https://webdesign.tutsplus.com/tutorials/smooth-scrolling-vanilla-javascript--cms-35165
+
+* Title: Tilt.js
+* Author: Gijs Rogé
+* Date: May 2, 2017
+* Code version: 1.1.19
+* Availability: http://gijsroge.github.io/tilt.js/
+
+* Title: How to get images in Bootstrap's card to be the same height/width?
+* Author: sepuckett86
+* Date: December 7, 2017
+* Code version:
+* Availability: https://stackoverflow.com/questions/37287153/how-to-get-images-in-bootstraps-card-to-be-the-same-height-width/53252725

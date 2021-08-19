@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- browser tab title -->
+        <title>Home</title>
+
+        <!-- load favicon (browser tab icon) -->
+        <link rel="shortcut icon" type="image/png" href="images/navbar/astronaut_1f9d1-200d-1f680.png">
+
+        <!-- load bootstrap 5 css remotely -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        
+        <!-- load local website stylesheet file -->
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+
+    <!-- body element spied on and linked to navbar -->
+    <body data-spy="scroll" data-target=".navbar" data-offset="80" tabindex="0" id="home"> <!-- link scrollable element (body) with navigation element (navbar) -->
+        <!-- navigation bar -->
+        <nav class="navbar fixed-top navbar-expand-lg" id="main-navbar">
+            <a class="navbar-brand" href="#home" data-tilt data-tilt-perspective="150" data-tilt-scale="1.1">
+                <img src="images/navbar/astronaut_1f9d1-200d-1f680.png" class="navbar-brand-image d-inline-block align-top" alt="Logo">
+                Reese Richardson
+            </a>
+            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="main-navigation">
+                <ul class="navbar-nav nav-pills">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#engineering">Engineering</a></li>
+                    <li class="nav-item"><a class="nav-link" href="me.html">Me</a></li>
+                        <!-- <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#Education">Education</a></li>
+                            <li><a class="dropdown-item" href="#Music">Music</a></li>
+                            <li><a class="dropdown-item" href="#Movies">Movies</a></li>
+                        </ul> -->
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <!-- <li class="nav-item" data-tilt data-tilt-perspective="50"><a class="nav-link" href="me.html">Me</a></li> -->
+                </ul>
+            </div>
+        </nav>
+        
+        <!-- header container -->
+        <!-- <header class="parallax-window header container-fluid" id="home" data-parallax="scroll" data-z-index="" data-image-src=""> -->
+        <header class="header container-fluid" id="header">
+            <div class="parallax earth-pos" data-rateX="0" data-rateY="0.5">
+                <img id="earth" src="images/header/globe-showing-americas_1f30e.png">
+            </div>
+            <div class="parallax mars-pos" data-rateX="0" data-rateY="0.6">
+                <img id="mars" src="images/header/full-moon_1f315.png">
+            </div>
+            <div class="parallax saturn-pos" data-rateX="0" data-rateY="0.8">
+                <img id="saturn" src="images/header/ringed-planet_1fa90.png">
+            </div>
+            <div class="parallax satellite-pos" data-rateX="0" data-rateY="0.6">
+                <img id="satellite" src="images/header/satellite_1f6f0-fe0f.png">
+            </div>
+            <div class="parallax rocket-pos" data-rateX="0.2" data-rateY="0.5">
+                <div id="rocket-rotate">
+                    <img id="rocket" src="images/header/rocket_1f680.png">
+                </div>
+            </div>
+            <div class="parallax ufo-pos" data-rateX="-0.2" data-rateY="0.5">
+                <div id="ufo-rotate">
+                    <img id="ufo" src="images/header/flying-saucer_1f6f8.png">
+                </div>
+            </div>
+            <div class="parallax description" data-rateX="0" data-rateY="0.7">
+                <h1>Reese Richardson</h1> <!-- . space</h1> -->
+                <h2>An engineer at heart determined to get humans to Mars</h2>
+                <h3>Today is <a id="clock"></a></h3>
+            </div>
+            <div id="scroll-down-arrow">
+                <div class="parallax" data-rateX="0" data-rateY="0.5">
+                    <span></span>
+                </div>
+            </div>
+        </header>
+
+        <!-- engineering -->
+        <section class="container-fluid background" id="engineering">
+            <div class="section-title">
+                <h1>Engineering</h1>
+            </div>
+
+            <div class="card-group">
+                <div class="card col-lg-4 col-md-4 text-center">
+                    <a href="#home">
+                        <img class="card-img" src="images/engineering_thumbnails/aerosp_548_leo.jpg" alt="Card image">
+                        <h1 class="card-text">MATLAB Astrodynamics<br>Simulations</h1>
+                    </a>
+                </div>
+                <div class="card col-lg-4 col-md-4 text-center">
+                    <a href="#home">
+                        <img class="card-img" src="images/engineering_thumbnails/aerosp_583_NGC.jpg" alt="Card image">
+                        <h1 class="card-text">Northrop Grumman<br>Mission Design</h1>
+                    </a>
+                </div>
+                <div class="card col-lg-4 col-md-4 text-center">
+                    <a href="#home">
+                        <img class="card-img" src="images/engineering_thumbnails/aerosp_551_phase_portrait.jpg" alt="Card image">
+                        <h1 class="card-text">MATLAB Nonlinear<br>Systems Analyses</h1>
+                    </a>
+                </div>
+            </div>
+
+            <div class="card-group">
+                <div class="card col-lg-4 col-md-4 text-center">
+                    <a href="#home">
+                        <img class="card-img" src="images/engineering_thumbnails/aerosp_582_stk.jpg" alt="Card image">
+                        <h1 class="card-text">STK Orbital<br>Analyses</h1>
+                    </a>
+                </div>
+                <div class="card col-lg-4 col-md-4 text-center">
+                    <a href="#home">
+                        <img class="card-img" src="images/engineering_thumbnails/iot_arduino_dht11.jpg" alt="Card image">
+                        <h1 class="card-text">IoT DHT11 Humidity +<br>Temperature Sensor</h1>
+                    </a>
+                </div>
+                <div class="card col-lg-4 col-md-4 text-center">
+                    <a href="#home">
+                        <img class="card-img" src="images/engineering_thumbnails/iot_doorlock.jpg" alt="Card image">
+                        <h1 class="card-text">IoT Raspberry Pi<br>Doorlock Actuator</h1>
+                    </a>
+                </div>
+            </div>
+
+            <div class="card-group">
+                <div class="card col-lg-4 col-md-4 col-sm-4 text-center">
+                    <a href="#home">
+                        <img class="card-img" src="images/engineering_thumbnails/abe_425_virtual_oscilloscope.jpg" alt="Card image">
+                        <h1 class="card-text">MATLAB Virtual<br>Oscilloscope Application</h1>
+                    </a>
+                </div>
+                <div class="card col-lg-4 col-md-4 col-sm-4 text-center">
+                    <a href="#home">
+                        <img class="card-img" src="images/engineering_thumbnails/abe_469_jd_tango.jpg" alt="Card image">
+                        <h1 class="card-text">John Deere Tango<br>Trimming Mechanism</h1>
+                    </a>
+                </div>
+                <div class="card col-lg-4 col-md-4 col-sm-4 text-center">
+                    <a href="#home">
+                        <img class="card-img" src="images/engineering_thumbnails/electric_bike.jpg" alt="Card image">
+                        <h1 class="card-text">eBike<br>Build</h1>
+                    </a>
+                </div>
+            </div>
+
+            <div class="card-group">
+                <div class="card col-lg-4 col-md-4 col-sm-4 text-center">
+                    <a href="#home">
+                        <img class="card-img" src="images/engineering_thumbnails/electric_bike_seat.jpg" alt="Card image">
+                        <h1 class="card-text">eBike Saddle<br>Seat Mount</h1>
+                    </a>
+                </div>
+                <div class="card col-lg-4 col-md-4 col-sm-4 text-center">
+                    <a href="#home">
+                        <img class="card-img" src="images/engineering_thumbnails/cpa_wind_tunnel.jpg" alt="Card image">
+                        <h1 class="card-text">CUA Active Flow Control<br>Cyclotronic Plasma Actuators</h1>
+                    </a>
+                </div>
+                <div class="card col-lg-4 col-md-4 col-sm-4 text-center">
+                    <a href="#home">
+                        <img class="card-img" src="images/engineering_thumbnails/arduino_solar_tracker_iCAM.jpg" alt="Card image">
+                        <h1 class="card-text">IoT Solar Tracker<br>iCAM Vannes France</h1>
+                    </a>
+                </div>
+            </div>
+
+            <div class="card-group">
+                <div class="card col-lg-4 col-md-4 col-sm-4 text-center">
+                    <a href="#home">
+                        <img class="card-img" src="images/engineering_thumbnails/me_200_thermoacoustic_engine.jpg" alt="Card image">
+                        <h1 class="card-text">&lt; $10 Thermoacoustic<br>Heat Engine Challenge</h1>
+                    </a>
+                </div>
+                <div class="card col-lg-4 col-md-4 col-sm-4 text-center">
+                    <a href="#home">
+                        <img class="card-img" src="images/engineering_thumbnails/se_101_campstove_section.jpg" alt="Card image">
+                        <h1 class="card-text">OUTAD Camp Stove<br>CAD Reconstruction</h1>
+                    </a>
+                </div>
+                <div class="card col-lg-4 col-md-4 col-sm-4 text-center">
+                    <a href="#home">
+                        <img class="card-img" src="images/engineering_thumbnails/abe_466_shibaura_j843.jpg" alt="Card image">
+                        <h1 class="card-text">Shibaura J843 Engine<br>Teardown + Rebuild</h1>
+                    </a>
+                </div>
+            </div>
+
+            <div class="card-group">
+                <div class="card col-lg-4 col-md-4 col-sm-4 text-center">
+                    <a href="#home">
+                        <img class="card-img" src="images/engineering_thumbnails/formula_sae.jpg" alt="Card image">
+                        <h1 class="card-text">Formula SAE<br>Illini Motorsports</h1>
+                    </a>
+                </div>
+                <div class="card col-lg-4 col-md-4 col-sm-4 text-center">
+                    <a href="#home">
+                        <img class="card-img" src="images/engineering_thumbnails/racing_drone.jpg" alt="Card image">
+                        <h1 class="card-text">250 mm FPV<br>Racing Drone</h1>
+                    </a>
+                </div>
+                <div class="card col-lg-4 col-md-4 col-sm-4 text-center">
+                    <a href="#home">
+                        <img class="card-img" src="images/engineering_thumbnails/tam_212_launcher.jpg" alt="Card image">
+                        <h1 class="card-text">Ping Pong Ball Trajectory<br>Analysis + Launcher</h1>
+                    </a>
+                </div>
+                <!-- <div class="card col-lg-4 col-md-4 col-sm-4 text-center">
+                    <a href="#home">
+                        <img class="card-img" src="images/engineering_thumbnails/spacex_bottle_opener.jpg" alt="Card image">
+                        <h1 class="card-text">3D Printed SpaceX<br>Bottle Opener</h1>
+                    </a>
+                </div> -->
+            </div>
+
+            <div class="card-group">
+                <div class="card col-lg-4 col-md-4 col-sm-4 text-center">
+                    <a href="#home">
+                        <img class="card-img" src="images/engineering_thumbnails/ft_sea_otter.jpg" alt="Card image">
+                        <h1 class="card-text">FT Sea Otter<br>Scratch Build</h1>
+                    </a>
+                </div>
+                <div class="card col-lg-4 col-md-4 col-sm-4 text-center">
+                    <a href="#home">
+                        <img class="card-img" src="images/engineering_thumbnails/electric_trike.jpg" alt="Card image">
+                        <h1 class="card-text">eTrike<br>Build</h1>
+                    </a>
+                </div>
+                <div class="card col-lg-4 col-md-4 col-sm-4 text-center">
+                    <a href="#home">
+                        <img class="card-img" src="images/engineering_thumbnails/tricopter_V2.5.jpg" alt="Card image">
+                        <h1 class="card-text">Tricopter V2.5<br>Scratch Build</h1>
+                    </a>
+                </div>
+            </div>
+
+            <div class="card-group">
+                <div class="card col-lg-4 col-md-4 col-sm-4 text-center">
+                    <a href="#home">
+                        <img class="card-img" src="images/engineering_thumbnails/hydroponics.jpg" alt="Card image">
+                        <h1 class="card-text">DIY 5 Gallon Bucket<br>Hydroponics System</h1>
+                    </a>
+                </div>
+                <div class="card col-lg-4 col-md-4 col-sm-4 text-center">
+                    <a href="#home">
+                        <img class="card-img" src="images/engineering_thumbnails/ikea_desk_mounts.jpg" alt="Card image">
+                        <h1 class="card-text">3D Printed IKEA<br>Desk Leg Mounts</h1>
+                    </a>
+                </div>
+                <div class="card col-lg-4 col-md-4 col-sm-4 text-center">
+                    <a href="#home">
+                        <img class="card-img" src="images/engineering_thumbnails/murphy_bed.jpg" alt="Card image">
+                        <h1 class="card-text">Murphy Bed<br>Scratch Build</h1>
+                    </a>
+                </div>
+            </div>
+
+            <div class="card-group">
+                <div class="card col-lg-4 col-md-4 col-sm-4 text-center">
+                    <a href="#home">
+                        <img class="card-img" src="images/engineering_thumbnails/ft_fpv_spear.jpg" alt="Card image">
+                        <h1 class="card-text">FT FPV Spear<br>Scratch Build</h1>
+                    </a>
+                </div>
+                <div class="card col-lg-4 col-md-4 col-sm-4 text-center">
+                    <a href="#home">
+                        <img class="card-img" src="images/engineering_thumbnails/tippi_tree_print.jpg" alt="Card image">
+                        <h1 class="card-text">Tippi Tree*<br>3D Print</h1>
+                    </a>
+                </div>
+                <div class="card col-lg-4 col-md-4 col-sm-4 text-center">
+                    <a href="#home">
+                        <img class="card-img" src="images/engineering_thumbnails/ft_ft-22_raptor.jpg" alt="Card image">
+                        <h1 class="card-text">FT FT-22 Raptor<br>Scratch Build</h1>
+                    </a>
+                </div>
+            </div>
+
+            <div class="card-group">
+                <div class="card col-lg-4 col-md-4 col-sm-4 text-center">
+                    <a href="#home">
+                        <img class="card-img" src="images/engineering_thumbnails/boat_v3.jpg" alt="Card image">
+                        <h1 class="card-text">Boat V3<br>Build</h1>
+                    </a>
+                </div>
+                <div class="card col-lg-4 col-md-4 col-sm-4 text-center">
+                    <a href="#home">
+                        <img class="card-img" src="images/engineering_thumbnails/tiny_whoop.jpg" alt="Card image">
+                        <h1 class="card-text">Tiny Whoop FPV<br>Micro Drone</h1>
+                    </a>
+                </div>
+                <div class="card col-lg-4 col-md-4 col-sm-4 text-center">
+                    <a href="#home">
+                        <img class="card-img" src="images/engineering_thumbnails/boat_v1.jpg" alt="Card image">
+                        <h1 class="card-text">Boat V1<br>Build</h1>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- art -->
+        <section class="container-fluid background" id="art">
+            <div class="section-title">
+                <h1>Art</h1>
+            </div>
+        </section>
+
+        <!-- footer container -->
+        <footer class="page-footer">
+            <div class="container-fluid features">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <h3 class="feature-title">Contact</h3>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Name" name="">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email Address" name="email">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="Message" rows="6"></textarea>
+                        </div>
+                        <input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright text-center">
+                © 2021 | Reese Richardson | All Rights Reserved
+            </div>
+        </footer>
+
+        <!-- load jquery remotely (must be loaded before other scripts to work properly) -->
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+        <!-- load bootstrap javascript remotely -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+        <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+        
+        <!-- load local main.js file -->
+        <script src="main.js"></script>
+
+        <!-- load local parallax.min.js -->
+        <script src="parallax.js-master/parallax.min.js"></script>
+
+        <!-- load local tilt.jquery.js -->
+        <script src="tilt.js-master/src/tilt.jquery.js"></script>
+
+    </body>
+</html>
