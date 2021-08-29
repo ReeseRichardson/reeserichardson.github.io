@@ -46,15 +46,15 @@ $(document).ready(function() {
     prevScrollpos = currentScrollPos;
   }
 
-  // smooth scrolling
-  $("a").on("click", function (e) {
+  // // smooth scrolling - BREAKS LINK FUNCTIONALITY!!!
+  // $("a").on("click", function (e) {
 
-    e.preventDefault();
+  //   e.preventDefault();
 
-    const href = $(this).attr("href");
+  //   const href = $(this).attr("href");
 
-    $("html, body").animate({ scrollTop: $(href).offset().top }, 2000);
-  });
+  //   $("html, body").animate({ scrollTop: $(href).offset().top }, 2000);
+  // });
 
   // current date and time
   var clockElement = document.getElementById('clock');
