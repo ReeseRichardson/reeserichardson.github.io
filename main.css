@@ -218,42 +218,6 @@ body {
     }
 }
 
-/* contact form */
-.contact .form-control,
-.contact input {
-	border-radius: 0;
-    width: 100%;
-    color: black;
-    border: transparent;
-    background-color: white;
-    box-shadow: none;
-}
-
-.contact .row {
-    padding-bottom: 2%;
-}
-
-.contact ::placeholder {
-    color: rgb(82, 82, 82);
-}
-
-.contact textarea {
-    resize: none;
-}
-
-.contact .btn {
-    background-color: transparent;
-    border: 1px solid white;
-    color: white;
-    height: 100%;
-}
-
-.contact .btn:hover {
-    background-color: rgb(49, 255, 83);
-    border: 1px solid rgb(49, 255, 83);
-    color: black;
-}
-
 /* sections */
 .background {
 	background:black;
@@ -307,6 +271,42 @@ body {
     font-size: 1.3rem;
     padding: 5px;
     text-align: left;
+}
+
+/* contact form */
+.contact .form-control,
+.contact input {
+	border-radius: 0;
+    width: 100%;
+    color: black;
+    border: transparent;
+    background-color: white;
+    box-shadow: none;
+}
+
+.contact .row {
+    padding-bottom: 2%;
+}
+
+.contact ::placeholder {
+    color: rgb(82, 82, 82);
+}
+
+.contact textarea {
+    resize: none;
+}
+
+.contact .btn {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    height: 100%;
+}
+
+.contact .btn:hover {
+    background-color: rgb(49, 255, 83);
+    border: 1px solid rgb(49, 255, 83);
+    color: black;
 }
 
 /* footer */
