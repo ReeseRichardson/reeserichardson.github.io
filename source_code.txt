@@ -81,3 +81,18 @@
 * Date: December 7, 2017
 * Code version:
 * Availability: https://stackoverflow.com/questions/37287153/how-to-get-images-in-bootstraps-card-to-be-the-same-height-width/53252725
+
+* Title: UNIVERSITY LOGO AND WORDMARK
+* Author: University of Illinois Urbana-Champaign Office of Strategic Marketing & Branding
+* Date: 
+* Code version:
+* Image name: block-i-blue-background.png
+* Availability: https://marketing.illinois.edu/brand/design/logo
+
+* Title: LinkedIn University of Michigan
+* Author: University of Michigan / Office of the Vice President for Communications
+* Date: 
+* Code version:
+* Image name: block-m-blue-background.png
+* Availability: https://www.linkedin.com/school/university-of-michigan/
+* Availability: https://brand.umich.edu/logos/
