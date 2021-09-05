@@ -373,6 +373,47 @@ body {
     }
 }
 
+/* temporary modal */
+.modal-content {
+    border-radius: 0%;
+    background-color: black;
+    border: 1px solid white;
+}
+
+.modal-header {
+    border-color: transparent;
+}
+
+.modal-title {
+    color: white;
+}
+
+.modal-footer {
+    border-color: transparent;
+}
+
+.modal-footer .btn {
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 0%;
+}
+
+.modal-footer .btn:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 0%;
+}
+
+.modal-body {
+    color: white;
+}
+
+body.modal-open {
+    overflow: hidden;
+}
+
 /* appear on load */
 .appear-on-load {
     animation: appear-on-load 1s ease;

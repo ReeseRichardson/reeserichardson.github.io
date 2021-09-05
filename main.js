@@ -64,4 +64,9 @@ $(document).ready(function() {
   }
 
   setInterval(clock);
+
+  // modal trigger
+  setTimeout(function() {
+	  $('#temporary-modal').modal();
+  }, 0);
 });
