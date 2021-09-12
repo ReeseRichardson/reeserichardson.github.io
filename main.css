@@ -356,13 +356,15 @@ body {
 /* linkedin profile badge */
 .badge-base {
     position: relative;
-    left: 10%;
+    margin: auto;
+    width: 50%;
 }
 
 .badge-txt {
     size: 2rem;
     color: rgb(82, 82, 82);
-    text-align: right;
+    text-align: center;
+    padding-bottom: 10%;
 }
 
 /* footer */
