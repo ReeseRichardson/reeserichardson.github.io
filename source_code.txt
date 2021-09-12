@@ -96,3 +96,9 @@
 * Image name: block-m-blue-background.png
 * Availability: https://www.linkedin.com/school/university-of-michigan/
 * Availability: https://brand.umich.edu/logos/
+
+* Title: How to hide collapsible Bootstrap navbar on click
+* Author: Michael Coker
+* Date: February 22, 2017
+* Code version: 
+* Availability: https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-navbar-on-click

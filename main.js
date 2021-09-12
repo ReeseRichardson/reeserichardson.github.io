@@ -69,4 +69,9 @@ $(document).ready(function() {
   setTimeout(function() {
 	  $('#temporary-modal').modal();
   }, 0);
+
+  // collapse navbar on click
+  $('.nav-link').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+  });
 });
