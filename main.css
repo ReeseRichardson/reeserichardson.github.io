@@ -379,9 +379,10 @@ body {
 
 /* linkedin profile badge */
 .badge-base {
-    position: relative;
-    margin: auto;
-    width: 50%;
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .badge-txt {
