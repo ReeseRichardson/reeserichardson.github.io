@@ -465,6 +465,7 @@ body {
 
 body.modal-open {
     overflow: hidden;
+    position: fixed;
 }
 
 /* appear on load */
